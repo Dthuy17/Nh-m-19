@@ -1,0 +1,189 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /** Banner */
+  /** Kß║┐t Th├║c Banner */
+  /** B├ái Giß║úng */
+  /** Kß║┐t Th├║c B├ái Giß║úng */
+  /* Chi Tiß║┐t B├ái Giß║úng*/
+  /* Kß║┐t Th├║c Chi Tiß║┐t B├ái Giß║úng*/
+  /* Nhß║¡n X├⌐t */
+  /* Hß║┐t Nhß║¡n X├⌐t */
+  /* Thi thß╗¡ */
+  /* Hß║┐t Thi thß╗¡ */
+  /* ─É─âng k├╜ */
+  /* Hß║┐t ─É─âng K├╜*/ }
+  body nav {
+    z-index: 100; }
+  body .banner {
+    background: top no-repeat url("../css/images/5.jpg");
+    background-size: cover; 
+    background-position: center 10px; /* hoặc background-position: top 10px; */
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: 0 0 1rem 0; }
+    body .banner .background-banner {
+      background: rgba(0, 0, 0, 0.102);
+      width: 100%;
+      height: 100%; }
+    body .banner .banner-title {
+      position: absolute;
+      color: #FFF;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      body .banner .banner-title h1 {
+        font-size: 55px; }
+      body .banner .banner-title p {
+        font-size: 20px; }
+  body .bai-giang {
+    padding-top: 3rem; }
+    body .bai-giang .tab {
+      overflow: hidden; }
+      body .bai-giang .tab ul {
+        width: 100%;
+        padding: 0;
+        text-align: center; }
+        body .bai-giang .tab ul li {
+          display: inline-block;
+          padding: 13px 0;
+          margin: 0.2rem 0;
+          background: #3d3b3b;
+          color: #FFF;
+          border-bottom: 4px solid #098bd6;
+          outline: none;
+          cursor: pointer;
+          padding: 14px;
+          transition: 0.3s;
+          font-size: 17px; }
+          body .bai-giang .tab ul li:hover {
+            background-color: #8d8a8a; }
+        body .bai-giang .tab ul li.active {
+          background-color: #4cd137; }
+    body .bai-giang .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border-top: none;
+      width: 100%; }
+  body .chi-tiet-bai-giang {
+    margin: 1rem 0;
+    padding: 2rem 0; }
+    body .chi-tiet-bai-giang--left__video iframe {
+      width: 100%;
+      height: 465px;
+      border: 2px solid #212121; }
+    body .chi-tiet-bai-giang--left__title h1 {
+      font-size: 25px;
+      font-weight: 500; }
+    body .chi-tiet-bai-giang--left__title p {
+      font-weight: 500; }
+    body .chi-tiet-bai-giang--left__content {
+      padding: 1rem 0; }
+    body .chi-tiet-bai-giang--left__comment .comment-list {
+      padding: 1rem 0; }
+      body .chi-tiet-bai-giang--left__comment .comment-list .comment-list-item .comment-list-item-img img {
+        width: 60px !important;
+        height: 60px !important;
+        border-radius: 50%;
+        border: 1.5px solid #4ab330; }
+      body .chi-tiet-bai-giang--left__comment .comment-list .comment-list-item .comment-list-item-content {
+        padding: 0 0 0 0.5rem; }
+    body .chi-tiet-bai-giang--right__scrollbar {
+      border: 30px solid #4ab330;
+      border-radius: 15px;
+      padding: 1rem; }
+      body .chi-tiet-bai-giang--right__scrollbar h1 {
+        font-size: 20px;
+        background: #4ab330;
+        padding: 0.4rem;
+        color: #FFF; }
+      body .chi-tiet-bai-giang--right__scrollbar ul li {
+        padding: 0.5rem 1rem;
+        border-bottom: 2px solid #212121;
+        width: 100%; }
+        body .chi-tiet-bai-giang--right__scrollbar ul li a {
+          text-decoration: none;
+          color: #212121; }
+        body .chi-tiet-bai-giang--right__scrollbar ul li.active {
+          background: #4ab330; }
+          body .chi-tiet-bai-giang--right__scrollbar ul li.active a {
+            color: #FFF !important; }
+  body .nhanxet {
+    width: 500px;
+    max-width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem; }
+    body .nhanxet .nhanxet-form {
+      width: 100%; }
+      body .nhanxet .nhanxet-form form .form-group input {
+        width: 100%;
+        outline: none;
+        font-size: 18px;
+        box-shadow: none;
+        border-bottom: 3px solid #4cd137; }
+  body .test-page {
+    padding: 1rem 0.5rem; }
+    body .test-page .top-nav-list .time-test {
+      padding: 0 1rem 0 0; }
+    body .test-page .top-nav-list .finish-all {
+      padding: 1rem 0; }
+    body .test-page .question-list .question-list-row {
+      background: #cdcdcd;
+      padding: 2rem 1rem;
+      border: 3px dashed #4cd137; }
+      body .test-page .question-list .question-list-row .answer .answer-list {
+        list-style: none; }
+  body .register {
+    width: 300px;
+    height: 450px;
+    background: rgba(50, 51, 51, 0.774);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    color: #FFF; }
+    body .register .register_title h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: #4cd137;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700; }
+    body .register .register_content {
+      width: 100%; }
+      body .register .register_content form .form-group input {
+        width: 100%;
+        outline: none;
+        font-size: 18px;
+        box-shadow: none;
+        border-bottom: 3px solid #4cd137; }
+
+@media only screen and (max-width: 600px) {
+  body .bai-giang .tab ul {
+    width: 100% !important; }
+    body .bai-giang .tab ul li {
+      width: 100% !important; } }
+
+/*# sourceMappingURL=style.css.map */
+.footer {
+  margin-top: 20px; /* Điều chỉnh giá trị theo nhu cầu của bạn */
+  background-color: #483b3b; /* Màu nền của phần Footer */
+  color: #fff; /* Màu văn bản trong phần Footer */
+  padding: 20px;
+}
+
+/* Nếu bạn muốn chia phần Footer và phần Body bằng một đường kẻ dưới, bạn có thể sử dụng đoạn mã sau */
+.footer {
+  border-top: 2px solid #2b2929; /* Đường kẻ dưới */
+  padding-top: 20px; /* Khoảng cách từ đường kẻ đến nội dung phần Footer */
+}
